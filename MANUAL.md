@@ -1,11 +1,15 @@
 # The Manual
 
-1. source bootstrap.sh
-2. bash `./osx`
-3. source brew.sh
-4. source nvm.sh
+1. Run: `source bootstrap.sh`
+2. Pick a machine name and adjust the [.macos script](https://github.com/dwightgunning/dotfiles/blob/7e199e43446bfcde2280def1b2d8d90faf384660/.macos#L19-L23)
+3. Run: `./macos`
+4. Run: `source brew.sh`
+5. Run: `source nvm.sh`
+6. Generate an SSH Key: `./ssh-key.sh`
+7. Create your own SSH Config @ `~/.ssh/config`
+8. *Win*
 
-# OSX
+# OSX setup
 
 ## Dock
  - unpin all apps from the Dock
@@ -75,5 +79,4 @@ Latest custom build with support for "hyper" keys:
  - application setup notes
  - better keyboard bindings
  - Dash docsets
-
  - 
