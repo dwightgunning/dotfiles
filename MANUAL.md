@@ -1,8 +1,15 @@
+# The Manual
+
+1. source bootstrap.sh
+2. bash `./osx`
+3. source brew.sh
+4. source nvm.sh
+
 # OSX
 
 ## Dock
  - unpin all apps from the Dock
- - Settins:
+ - Settings:
 	 - minimum size & no magnification
 	 - position left
 	 - auto hide and show the doc

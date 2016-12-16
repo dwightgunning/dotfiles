@@ -9,6 +9,11 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 done;
 unset file;
 
+if hash brew 2>/dev/null; then
+	# Source Node Version Manager
+	source "/usr/local/opt/nvm/nvm.sh";
+fi;
+
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob;
 
@@ -26,7 +31,7 @@ for option in autocd globstar; do
 done;
 
 # Add tab completion for many Bash commands
-if which brew &> /dev/null && [ -f "$(brew --prefix)/share/bash-completion/bash_completion" ]; then
+if hash brew &> /dev/null && [ -f "$(brew --prefix)/share/bash-completion/bash_completion" ]; then
 	source "$(brew --prefix)/share/bash-completion/bash_completion";
 elif [ -f /etc/bash_completion ]; then
 	source /etc/bash_completion;
