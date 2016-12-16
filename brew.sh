@@ -59,6 +59,7 @@ brew install webkit2png
 # Software development
 brew install python3
 brew linkapps python3
+brew install nvm
 
 # Install desktop apps from Cask: https://caskroom.github.io/
 brew tap caskroom/cask
