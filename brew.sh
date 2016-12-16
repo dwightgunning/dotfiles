@@ -56,6 +56,10 @@ brew install tree
 brew install vbindiff
 brew install webkit2png
 
+# Software development
+brew install python3
+brew linkapps python3
+
 # Install desktop apps from Cask: https://caskroom.github.io/
 brew tap caskroom/cask
 brew cask install appcode
