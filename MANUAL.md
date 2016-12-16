@@ -24,7 +24,6 @@
  - Google Drive
  - gpg
  - gpg-agent
- - Karabiner (and NoEjectDelay Utility)
  - KeePassX
  - Little Snitch
  - Linein
@@ -32,6 +31,14 @@
  - Micro Snitch
  - Rescue Time
  - VirtualBox
+
+## Karabiner
+
+Karabiner is not currrently working in OS X Sierra. There core devs are working on a sub-project called Karabiner-Elements in the interim. Although stable releases are out, there's some bleeding-edge features still making their way through various PRs.
+
+Latest custom build with support for "hyper" keys:
+
+ - (Karabiner-Elements-0.90.68.dmg)[https://github.com/tekezo/Karabiner-Elements/pull/170#issuecomment-257091685]
 
 ## App Store:
   - Keynote
