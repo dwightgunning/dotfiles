@@ -16,6 +16,11 @@ export NVM_DIR="$HOME/.nvm"
 # Make Python use UTF-8 encoding for output to stdin, stdout, and stderr.
 export PYTHONIOENCODING='UTF-8';
 
+# Set Virtualenv variables
+export VIRTUALENVWRAPPER_PYTHON="/usr/local/bin/python3"
+export WORKON_HOME="$HOME/.virtualenvs"
+export PROJECT_HOME="$HOME/projects"
+
 # Increase Bash history size. Allow 32³ entries; the default is 500.
 export HISTSIZE='32768';
 export HISTFILESIZE="${HISTSIZE}";

@@ -11,6 +11,7 @@ function doIt() {
 		--exclude "bootstrap.sh" \
 		--exclude "brew.sh" \
 		--exclude "nvm.sh" \
+		--exclude "python.sh" \
 		--exclude "ssh-key.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE.md" \

@@ -5,9 +5,10 @@
 3. Run: `./macos`
 4. Run: `source brew.sh`
 5. Run: `source nvm.sh`
-6. Generate an SSH Key: `./ssh-key.sh`
-7. Create your own SSH Config @ `~/.ssh/config`
-8. *Win*
+6. Run: `source python.sh`
+7. Generate an SSH Key: `./ssh-key.sh`
+8. Create your own SSH Config @ `~/.ssh/config`
+9. *Win*
 
 # OSX setup
 
@@ -54,20 +55,16 @@ Latest custom build with support for "hyper" keys:
 ## Application configuration
 
 ### KeepassX
- 
+
  - Set the auto-lock timeout
 
 ### Flux
 
  - Adjust your colour settings
- 
+
 # To-dos
 
  - Look at dev environment
- 	- ssh config
- 	- Python
- 		- pip3 global packages
- 	- Node
  	- Ruby
  	- SASS
  	- Postgres
@@ -79,4 +76,3 @@ Latest custom build with support for "hyper" keys:
  - application setup notes
  - better keyboard bindings
  - Dash docsets
- - 
