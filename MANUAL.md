@@ -77,3 +77,22 @@ Most fonts are installed by brew, however some aren't available. Open __Font Boo
  	- bash keyboard bindings
  - Dash docsets
  - display date in system bar clock
+### Stop iTunes from opening when an iPhone or iPad is plugged in
+ - http://osxdaily.com/2010/05/06/stop-itunes-from-automatically-opening-when-iphoneipod-is-connected/
+
+# Other stuff to explore
+
+	Power settings:
+	 - 3 min screen off
+	 - disable Prevent Computer from sleeping automatically
+	 - enable Put hard disks to sleep when possible
+	 - disable wake for WIFI
+	 - disable Power Nap
+
+	Desktop & Screensaver:
+	 - Screensaver: never
+
+	Applications:
+	 - Caskroom/cask/spotify
+	 - Logitech Control Center
+	 - brew redis
