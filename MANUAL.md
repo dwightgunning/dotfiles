@@ -62,6 +62,10 @@ Latest custom build with support for "hyper" keys:
 
  - Adjust your colour settings
 
+# Fonts
+
+Most fonts are installed by brew, however some aren't available. Open __Font Book__ and drag the folders beneath `./fonts` into the _User_ folder.
+
 # To-dos
 
  - Look at dev environment
@@ -70,9 +74,6 @@ Latest custom build with support for "hyper" keys:
  	- Postgres
  	- nginx
  	- git auto-completion
- 	- sublime keyboard bindings
  	- bash keyboard bindings
- - system fonts
- - application setup notes
- - better keyboard bindings
  - Dash docsets
+ - display date in system bar clock

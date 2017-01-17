@@ -80,5 +80,30 @@ brew cask install slack
 brew cask install vlc
 brew cask install whatsapp
 
+# Install OSX fonts
+brew tap caskroom/fonts
+brew cask install font-arvil
+brew cask install font-dosis
+brew cask install font-fontawesome
+brew cask install font-inconsolata
+brew cask install font-ionicons
+brew cask install font-lato
+brew cask install font-league-gothic
+brew cask install font-londrina-outline
+brew cask install font-londrina-shadow
+brew cask install font-londrina-sketch
+brew cask install font-londrina-solid
+brew cask install font-material-icons
+brew cask install font-materialdesignicons-webfont
+brew cask install font-montserrat
+brew cask install font-open-sans
+brew cask install font-roboto
+brew cask install font-roboto-condensed
+brew cask install font-roboto-mono
+brew cask install font-source-code-pro
+brew cask install font-source-sans-pro
+brew cask install font-source-serif-pro
+brew cask install font-ubuntu
+
 # Remove outdated versions from the cellar.
 brew cleanup
