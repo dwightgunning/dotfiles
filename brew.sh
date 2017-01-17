@@ -48,6 +48,7 @@ brew install gpg-agent
 brew install nmap
 brew install p7zip
 brew install pigz
+brew install redis
 brew install rename
 brew install speedtest_cli
 brew install ssh-copy-id

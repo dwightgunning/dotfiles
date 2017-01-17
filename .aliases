@@ -157,3 +157,4 @@ alias reload="exec $SHELL -l"
 alias path='echo -e ${PATH//:/\\n}'
 
 alias python='python3'
+alias redis-server='redis-server /usr/local/etc/redis.conf'
