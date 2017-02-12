@@ -183,7 +183,7 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 # Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 1
-defaults write NSGlobalDomain InitialKeyRepeat -int 10
+defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
 # Set language and text formats
 # Note: if you’re in the US, replace `EUR` with `USD`, `Centimeters` with
@@ -831,10 +831,13 @@ defaults write com.twitter.twitter-mac HideInBackground -bool true
 # Karabiner-Elements.app                                                      #
 ###############################################################################
 
-# Replace default Karabiner-Elements settings with a symlink to our dotfiles version
-mkdir -p ~/.karabiner.d/configuration
-ln -sF ~/dotfiles/init/karabiner.json ~/.karabiner.d/configuration/karabiner.json
+# # Replace default Karabiner-Elements settings with a symlink to our dotfiles version
+# mkdir -p ~/.karabiner.d/configuration
+# ln -sF ~/dotfiles/init/karabiner.json ~/.karabiner.d/configuration/karabiner.json
 
+# Replace default Karabiner-Elements settings with a symlink to our dotfiles version
+mkdir -p /Users/dwight/.config/karabiner/
+ln -sF ~/dotfiles/init/karabiner.json /Users/dwight/.config/karabiner/karabiner.json
 
 ###############################################################################
 # Kill affected applications                                                  #
