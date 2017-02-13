@@ -61,6 +61,34 @@ brew install webkit2png
 brew install pyenv
 brew install nvm
 
+# Stream development dependencies
+brew install sqlite
+brew install iperf3
+brew install libyaml
+brew install libmemcached
+brew install postgresql
+brew install xmlto
+brew install asciidoc
+brew install freetype
+brew install gnu-getopt
+brew install isl
+brew install pstoedit
+brew install xz
+brew install autoconf
+brew install gnu-sed
+brew install little-cms2
+brew install jbig2dec
+brew install libmpc
+brew install libev
+brew install libpng
+brew install ant
+brew install maven
+brew install libevent
+brew install libtiff
+brew install memcached
+brew install libxml2
+brew install libxmlsec1
+
 # Install desktop apps from Cask: https://caskroom.github.io/
 brew tap caskroom/cask
 brew cask install appcode
