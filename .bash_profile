@@ -9,14 +9,12 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 done;
 unset file;
 
-if hash pip3 2>/dev/null; then
-	# Source virtualenvwrapper
-	source "$HOME/Library/Python/3.5/bin/virtualenvwrapper.sh" &>/dev/null;
-fi;
-
 if hash brew 2>/dev/null; then
 	# Source Node Version Manager
 	source "/usr/local/opt/nvm/nvm.sh";
+
+	# Initialise pyenv
+	eval "$(pyenv init -)"
 fi;
 
 # Case-insensitive globbing (used in pathname expansion)
