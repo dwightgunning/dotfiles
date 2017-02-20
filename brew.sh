@@ -86,6 +86,7 @@ brew install maven
 brew install libevent
 brew install libtiff
 brew install memcached
+brew install mysql
 brew install libxml2
 brew install libxmlsec1
 
