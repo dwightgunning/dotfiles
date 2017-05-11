@@ -60,3 +60,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# Add the golang path
+export GOPATH=$HOME/go
+export PATH="$PATH:$GOPATH/bin"

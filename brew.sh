@@ -63,6 +63,7 @@ brew install webkit2png
 # Software development
 brew install pyenv
 brew install nvm
+brew install go --cross-compile-common
 
 # Stream development dependencies
 brew install sqlite
