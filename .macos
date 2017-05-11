@@ -828,6 +828,12 @@ defaults write com.twitter.twitter-mac ShowFullNames -bool true
 defaults write com.twitter.twitter-mac HideInBackground -bool true
 
 ###############################################################################
+# Disable built-in Apache2 web server
+###############################################################################
+
+sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist 2>/dev/null
+
+###############################################################################
 # Karabiner-Elements.app                                                      #
 ###############################################################################
 

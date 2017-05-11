@@ -153,7 +153,12 @@ alias reload="exec $SHELL -l"
 alias path='echo -e ${PATH//:/\\n}'
 
 alias redis-server='redis-server /usr/local/etc/redis.conf'
+
 alias pgstart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
 alias pgstop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
+
 alias mysqlstart='mysql.server start'
 alias mysqlstop='mysql.server stop'
+
+alias apachestart='apachectl start'
+alias apachestart='apachectl stop'

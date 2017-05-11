@@ -45,7 +45,10 @@ brew install dark-mode
 brew install git
 brew install gpg
 brew install gpg-agent
+brew install httpd24
 brew install nmap
+brew install php/php71 --with-httpd24
+brew install apache/mod_fastcgi --with-brewed-httpd24
 brew install p7zip
 brew install pigz
 brew install redis
