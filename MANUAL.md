@@ -43,7 +43,7 @@ Karabiner is not currrently working in OS X Sierra. There core devs are working 
 
 Latest custom build with support for "hyper" keys:
 
- - (Karabiner-Elements-0.90.68.dmg)[https://github.com/tekezo/Karabiner-Elements/pull/170#issuecomment-257091685]
+ - [Karabiner-Elements-0.90.68.dmg](https://github.com/tekezo/Karabiner-Elements/pull/170#issuecomment-257091685)
 
 ## App Store:
   - Keynote
@@ -80,6 +80,20 @@ Most fonts are installed by brew, however some aren't available. Open __Font Boo
 ### Stop iTunes from opening when an iPhone or iPad is plugged in
  - http://osxdaily.com/2010/05/06/stop-itunes-from-automatically-opening-when-iphoneipod-is-connected/
 
+# Sublime Packages
+
+- [Package Control](https://packagecontrol.io/packages/Package%20Control)
+- [Emmet](https://packagecontrol.io/packages/Emmet)
+- [Babel](https://packagecontrol.io/packages/Babel)
+- [HTML-CSS-JS Prettify](https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify)
+- [TypeScript](https://packagecontrol.io/packages/TypeScript)
+- [Side​Bar​Enhancements](https://packagecontrol.io/packages/SideBarEnhancements)
+- [Markdown Preview](https://packagecontrol.io/packages/Markdown%20Preview)
+- [LiveReload](https://packagecontrol.io/packages/LiveReload)
+- [Git​Gutter](https://packagecontrol.io/packages/GitGutter)
+- [ESLint](https://packagecontrol.io/packages/ESLint)
+- [ESLint Formatter](https://packagecontrol.io/packages/ESLint-Formatter)
+
 # Other stuff to explore
 
 	Power settings:
@@ -96,3 +110,10 @@ Most fonts are installed by brew, however some aren't available. Open __Font Boo
 	 - Caskroom/cask/spotify
 	 - Logitech Control Center
 	 - brew redis
+	 - Setup Bowtie with Last.fm credentials
+	 - Setup Menumeters
+
+	.NET Core SDK
+	 - brew install openssl
+	 - ln -s /usr/local/opt/openssl/lib/libcrypto.1.0.0.dylib /usr/local/lib/
+	 - ln -s /usr/local/opt/openssl/lib/libssl.1.0.0.dylib /usr/local/lib/
