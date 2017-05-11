@@ -128,6 +128,7 @@ brew cask install font-londrina-sketch
 brew cask install font-londrina-solid
 brew cask install font-material-icons
 brew cask install font-materialdesignicons-webfont
+brew cask install font-merriweather
 brew cask install font-montserrat
 brew cask install font-open-sans
 brew cask install font-roboto
