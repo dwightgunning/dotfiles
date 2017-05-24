@@ -1,10 +1,15 @@
 [alias]
+	# showing metadata
+	list-aliases = !git config -l | grep alias | cut -c 7- | sort
+
+	# showing urls
+	show-remote-url = config --get remote.origin.url
 
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
 
-	# View the current working tree status using the short format
-	s = status -s
+	# View the current working tree status (and branch) using the short format
+	s = status -sb
 
 	# Show the diff between the latest commit and the current state
 	d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
@@ -180,3 +185,6 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+[user]
+	name = Dwight Gunning
+	email = dwight@dwightgunning.com
