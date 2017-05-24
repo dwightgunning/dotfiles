@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Make vim the default editor.
+# Make Sublime the default editor.
 export EDITOR='subl -w';
 
 # Enable persistent REPL history for `node`.
@@ -20,6 +20,9 @@ export PYTHONIOENCODING='UTF-8';
 export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
 export WORKON_HOME="$HOME/.virtualenvs"
 export PROJECT_HOME="$HOME/projects"
+
+# Java
+export JAVA_HOME=$(/usr/libexec/java_home)
 
 # Increase Bash history size. Allow 32³ entries; the default is 500.
 export HISTSIZE='32768';
