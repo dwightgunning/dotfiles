@@ -91,6 +91,7 @@ brew install libevent
 brew install libtiff
 brew install memcached
 brew install mysql
+brew install nginx
 brew install libxml2
 brew install libxmlsec1
 
