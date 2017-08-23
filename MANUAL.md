@@ -82,17 +82,19 @@ Most fonts are installed by brew, however some aren't available. Open __Font Boo
 
 # Sublime Packages
 
-- [Package Control](https://packagecontrol.io/packages/Package%20Control)
-- [Emmet](https://packagecontrol.io/packages/Emmet)
 - [Babel](https://packagecontrol.io/packages/Babel)
-- [HTML-CSS-JS Prettify](https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify)
-- [TypeScript](https://packagecontrol.io/packages/TypeScript)
-- [Side​Bar​Enhancements](https://packagecontrol.io/packages/SideBarEnhancements)
-- [Markdown Preview](https://packagecontrol.io/packages/Markdown%20Preview)
-- [LiveReload](https://packagecontrol.io/packages/LiveReload)
-- [Git​Gutter](https://packagecontrol.io/packages/GitGutter)
+- [Emmet](https://packagecontrol.io/packages/Emmet)
 - [ESLint](https://packagecontrol.io/packages/ESLint)
 - [ESLint Formatter](https://packagecontrol.io/packages/ESLint-Formatter)
+- [GitGutter](https://packagecontrol.io/packages/GitGutter)
+- [HTML-CSS-JS Prettify](https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify)
+- [LiveReload](https://packagecontrol.io/packages/LiveReload)
+- [Markdown Preview](https://packagecontrol.io/packages/Markdown%20Preview)
+- [Package Control](https://packagecontrol.io/packages/Package%20Control)
+- [Project Specific Syntax Settings](https://packagecontrol.io/packages/Project%20Specific%20Syntax%20Settings)
+- [SideBarEnhancements](https://packagecontrol.io/packages/SideBarEnhancements)
+- [Syntax Highlighting for Sass](https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass)
+- [TypeScript](https://packagecontrol.io/packages/TypeScript)
 
 # Other stuff to explore
 
