@@ -41,11 +41,15 @@ brew install homebrew/dupes/screen
 
 # Install other useful binaries.
 brew install ack
+brew install ccat
+brew install curl
 brew install dark-mode
 brew install git
 brew install gpg
 brew install gpg-agent
 brew install httpd24
+brew install mas
+brew install m-cli
 brew install nmap
 brew install php/php71 --with-httpd24
 brew install apache/mod_fastcgi --with-brewed-httpd24
@@ -56,9 +60,11 @@ brew install rename
 brew install speedtest_cli
 brew install ssh-copy-id
 brew install testssl
+brew install thefuck
 brew install tree
 brew install vbindiff
 brew install webkit2png
+brew install youtube-dl
 
 # Software development
 brew install pyenv
@@ -97,6 +103,7 @@ brew install libxmlsec1
 
 # Install desktop apps from Cask: https://caskroom.github.io/
 brew tap caskroom/cask
+brew cask install anki
 brew cask install appcode
 brew cask install bowtie
 brew cask install dash
@@ -107,6 +114,7 @@ brew cask install flux
 brew cask install gimp
 brew cask install omnigraffle
 brew cask install rowanj-gitx
+brew cask install ship
 brew cask install sketch
 brew cask install sketch-toolbox
 brew cask install skype

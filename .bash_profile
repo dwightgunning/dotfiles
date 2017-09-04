@@ -64,3 +64,6 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # Add the golang path
 export GOPATH=$HOME/go
 export PATH="$PATH:$GOPATH/bin"
+
+# Make (homebrew) thefuck available
+eval $(thefuck --alias)
