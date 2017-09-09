@@ -854,6 +854,14 @@ mkdir -p /Users/dwight/.config/iterm/
 ln -sF ~/dotfiles/init/iterm /Users/dwight/.config/iterm
 
 ###############################################################################
+# iTerm.app.                                                                  #
+###############################################################################
+
+# Setup a custom Alfred settings location with a symlink to our dotfiles version
+mkdir -p /Users/dwight/.config/Alfred.alfredpreferences/
+ln -sF ~/dotfiles/init/Alfred.alfredpreferences/ /Users/dwight/.config/Alfred.alfredpreferences
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 

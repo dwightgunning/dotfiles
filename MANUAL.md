@@ -62,6 +62,10 @@ Latest custom build with support for "hyper" keys:
 
  - Adjust your colour settings
 
+### iTerm
+
+Update preferences to set settings synchronization folder: `~/.config/iterm/`
+
 ### Alfred
 
 Update preferences to set settings synchronization folder: `~/.config/Alfred.alfredpreferences`
