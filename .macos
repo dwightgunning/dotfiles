@@ -828,7 +828,7 @@ defaults write com.twitter.twitter-mac ShowFullNames -bool true
 defaults write com.twitter.twitter-mac HideInBackground -bool true
 
 ###############################################################################
-# Disable built-in Apache2 web server
+# Disable built-in Apache2 web server                                         #
 ###############################################################################
 
 sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist 2>/dev/null
@@ -836,10 +836,6 @@ sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist 2>
 ###############################################################################
 # Karabiner-Elements.app                                                      #
 ###############################################################################
-
-# # Replace default Karabiner-Elements settings with a symlink to our dotfiles version
-# mkdir -p ~/.karabiner.d/configuration
-# ln -sF ~/dotfiles/init/karabiner.json ~/.karabiner.d/configuration/karabiner.json
 
 # Replace default Karabiner-Elements settings with a symlink to our dotfiles version
 mkdir -p /Users/dwight/.config/karabiner/
@@ -868,7 +864,7 @@ ln -sF ~/dotfiles/init/Alfred.alfredpreferences/ /Users/dwight/.config/Alfred.al
 for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
 	"Dock" "Finder" "Google Chrome" "Google Chrome Canary" "Mail" "Messages" \
 	"Photos" "Safari" "SystemUIServer" "Terminal" "Twitter" "iCal" \
-	"karabiner_event_dispatcher" "karabiner_grabber" "karabiner_console_user_server"; do
+	"karabiner_event_dispatcher" "karabiner_grabber" "karabiner_console_user_server" "Alfred 3" "iTerm"; do
 	killall "${app}" &> /dev/null
 done
 echo "Done. Note that some of these changes require a logout/restart to take effect."
