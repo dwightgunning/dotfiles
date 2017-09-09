@@ -69,6 +69,14 @@ Install workflows:
  - iTerm sessions: https://github.com/madvas/alfred-iterm-sessions
  - ProcessControl: http://vitorgalvao.com/
 
+### Spotlight
+
+Use the recovery console to execute the following:
+
+`$ sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search`
+
+https://stackoverflow.com/questions/31640732/hide-icon-spotlight-in-el-capitan
+
 # Fonts
 
 Most fonts are installed by brew, however some aren't available. Open __Font Book__ and drag the folders beneath `./fonts` into the _User_ folder.
