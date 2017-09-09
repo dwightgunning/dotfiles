@@ -846,6 +846,14 @@ mkdir -p /Users/dwight/.config/karabiner/
 ln -sF ~/dotfiles/init/karabiner.json /Users/dwight/.config/karabiner/karabiner.json
 
 ###############################################################################
+# Alfred 3.app                                                                #
+###############################################################################
+
+# Setup a custom Alfred settings location with a symlink to our dotfiles version
+mkdir -p /Users/dwight/.config/iterm/
+ln -sF ~/dotfiles/init/iterm /Users/dwight/.config/iterm
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 

@@ -62,6 +62,17 @@ Latest custom build with support for "hyper" keys:
 
  - Adjust your colour settings
 
+### Alfred
+
+Update preferences to set settings synchronization folder: `~/.config/Alfred.alfredpreferences`
+
+Install workflows:
+ - dark-mode: https://github.com/sindresorhus/alfred-dark-mode#readme
+ - units: http://units.dnsu.ch
+ - Dash: enable from Dash.app
+ - iTerm sessions: https://github.com/madvas/alfred-iterm-sessions
+ - ProcessControl: http://vitorgalvao.com/
+
 # Fonts
 
 Most fonts are installed by brew, however some aren't available. Open __Font Book__ and drag the folders beneath `./fonts` into the _User_ folder.

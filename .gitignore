@@ -5,6 +5,12 @@
 .DS_Store
 Desktop.ini
 
+# Local Alfred
+init/Alfred.alfredpreferences/clipboard/snippets.alfdb
+init/Alfred.alfredpreferences/preferences/local
+init/Alfred.alfredpreferences/remote/
+init/Alfred.alfredpreferences/workflows/
+
 # Thumbnail cache files
 ._*
 Thumbs.db
