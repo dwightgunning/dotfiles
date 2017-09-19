@@ -114,11 +114,11 @@ brew cask install flux
 brew cask install gimp
 brew cask install omnigraffle
 brew cask install rowanj-gitx
-brew cask install ship
 brew cask install sketch
 brew cask install sketch-toolbox
 brew cask install skype
 brew cask install slack
+brew cask install sublime-text
 brew cask install spectacle
 brew cask install vlc
 brew cask install whatsapp

@@ -34,6 +34,7 @@
  - Linein
  - Menu Meters
  - Micro Snitch
+ - Ship
  - Rescue Time
  - VirtualBox
 
@@ -107,6 +108,7 @@ Most fonts are installed by brew, however some aren't available. Open __Font Boo
 - [Markdown Preview](https://packagecontrol.io/packages/Markdown%20Preview)
 - [Package Control](https://packagecontrol.io/packages/Package%20Control)
 - [Project Specific Syntax Settings](https://packagecontrol.io/packages/Project%20Specific%20Syntax%20Settings)
+- [ReactJS](https://packagecontrol.io/packages/ReactJS)
 - [SideBarEnhancements](https://packagecontrol.io/packages/SideBarEnhancements)
 - [Syntax Highlighting for Sass](https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass)
 - [TypeScript](https://packagecontrol.io/packages/TypeScript)
