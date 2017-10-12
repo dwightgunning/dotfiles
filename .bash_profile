@@ -14,7 +14,9 @@ if hash brew 2>/dev/null; then
 	source "/usr/local/opt/nvm/nvm.sh";
 
 	# Initialise pyenv
-	eval "$(pyenv init -)"
+	if command -v pyenv 1>/dev/null 2>&1; then
+		eval "$(pyenv init -)"
+	fi
 fi;
 
 # Case-insensitive globbing (used in pathname expansion)
