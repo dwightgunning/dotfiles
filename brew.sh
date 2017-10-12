@@ -60,7 +60,6 @@ brew install rename
 brew install speedtest_cli
 brew install ssh-copy-id
 brew install testssl
-brew install thefuck
 brew install tree
 brew install vbindiff
 brew install webkit2png
