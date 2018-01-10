@@ -66,3 +66,6 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # Add the golang path
 export GOPATH=$HOME/go
 export PATH="$PATH:$GOPATH/bin"
+
+# Add the pipsi path
+export PATH="$PATH:/Users/dwight/.local/bin"
