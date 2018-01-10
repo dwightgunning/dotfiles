@@ -373,19 +373,19 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>3290 1308 620 392 1680 0 3840 2137 </string>
+	<string>492 303 700 622 0 0 1680 1027 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>1949 139 606 456 1680 0 3840 2137 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>381 422 796 473 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1095 0 585 475 0 0 1680 1027 </string>
+	<string>4 0 1676 1027 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>3602 0 1915 2137 1680 0 3840 2137 </string>
+	<string>2385 707 1159 832 1680 0 3840 2137 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>472 0 1208 932 0 0 1680 1027 </string>
+	<string>1849 1181 1341 826 1680 0 3840 2137 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>818 0 788 860 0 0 1680 1027 </string>
+	<string>4479 408 585 452 1680 0 3840 2137 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
 	<string>604 183 858 694 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
@@ -1652,6 +1652,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/dwight/projects/git/dotfiles/init/iterm</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>SUEnableAutomaticChecks</key>
@@ -1663,7 +1665,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-09-29T08:35:16Z</date>
+	<date>2017-11-08T09:23:47Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
@@ -1672,9 +1674,11 @@
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.1.2</string>
+	<string>3.1.4</string>
 </dict>
 </plist>
