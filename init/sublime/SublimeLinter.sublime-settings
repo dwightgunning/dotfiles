@@ -1,0 +1,25 @@
+// SublimeLinter Settings - User
+{
+  "debug": true,
+  "linters":
+  {
+      "pyflakes": {
+          // "@python": "3.6.4",
+          "python": "/Users/dwight/.pyenv/versions/3.6.4/bin/python",
+          "disable": false
+      },
+      "eslint_d": {
+        "env": {"PATH":"/Users/dwight/.nvm/versions/node/v10.2.1/bin"},
+      },
+      "eslint": {
+        "env": {"PATH":"/Users/dwight/.nvm/versions/node/v10.2.1/bin"},
+      }
+  },
+  "paths": {
+    "linux": [],
+    "osx": [
+        "/Users/dwight/.nvm/versions/node/v10.2.1/bin"
+    ],
+    "windows": []
+  }
+}
