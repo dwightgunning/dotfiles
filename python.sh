@@ -5,9 +5,10 @@ echo "==================================="
 
 # pyenv installed via homebrew
 
-pyenv install 2.7.13
-pyenv install 3.6.3
-pyenv global 3.6.4
+pyenv install 2.7.15
+pyenv install 3.7.0
+pyenv global 3.7.0
+
 
 pip install pew
 pip install pipsi
@@ -19,7 +20,6 @@ pip install pipsi
 /Users/dwight/.local/bin/pipsi install ipython
 /Users/dwight/.local/bin/pipsi install isort
 /Users/dwight/.local/bin/pipsi install nose
-/Users/dwight/.local/bin/pipsi install pipenv
 /Users/dwight/.local/bin/pipsi install pycodestyle
 /Users/dwight/.local/bin/pipsi install pytest
 /Users/dwight/.local/bin/pipsi install tox
