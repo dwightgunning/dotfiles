@@ -81,6 +81,9 @@
 		fi \
 	}; f"
 
+	# Show commit files
+	sc = "!f() { git diff-tree --no-commit-id --name-status -r $1; }; f"
+
 [apply]
 
 	# Detect whitespace errors when applying a patch
