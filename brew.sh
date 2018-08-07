@@ -122,6 +122,8 @@ brew cask install spectacle
 brew cask install vlc
 brew cask install whatsapp
 
+brew cask install tunnelblick
+
 # Install OSX fonts
 brew tap caskroom/fonts
 brew cask install font-arvil
