@@ -18,7 +18,7 @@ npm install -g yarn
 npm install -g vtop
 npm install -g tldr
 npm install -g alfred-dark-mode
-npm install -g angular-cli
+npm install -g @angular/cli
 npm install -g typescript
 npm install -g babel-cli
 npm install -g chai
