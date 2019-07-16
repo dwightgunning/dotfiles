@@ -1,25 +1,18 @@
 #!/usr/bin/env bash
 
+# Notes: pyenv and default-packages-plugin installed via homebrew
+
 echo -e "\n\nInstalling Python toolbelt"
 echo "==================================="
 
-# pyenv installed via homebrew
 
-pyenv install 2.7.15
-pyenv install 3.7.0
-pyenv global 3.7.0
+#
+echo -e "\n\nUpdating default packages list"
+cp init/pyenv-default-packages $PYENV_ROOT/default-packages
 
+echo -e "\n\nInstalling python versions"
+pyenv install 2.7.16
+pyenv install 3.7.4
 
-pip install pew
-pip install pipsi
-
-# pipsi for developer tooling
-
-/Users/dwight/.local/bin/pipsi install flake8
-/Users/dwight/.local/bin/pipsi install ipdb
-/Users/dwight/.local/bin/pipsi install ipython
-/Users/dwight/.local/bin/pipsi install isort
-/Users/dwight/.local/bin/pipsi install nose
-/Users/dwight/.local/bin/pipsi install pycodestyle
-/Users/dwight/.local/bin/pipsi install pytest
-/Users/dwight/.local/bin/pipsi install tox
+echo -e "\n\nSetting global python version"
+pyenv global 3.7.4

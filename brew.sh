@@ -67,6 +67,7 @@ brew install youtube-dl
 
 # Software development
 brew install pyenv
+brew install --HEAD jawshooah/pyenv/pyenv-default-packages
 brew install nvm
 brew install go --cross-compile-common
 
