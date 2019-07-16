@@ -25,7 +25,6 @@
 # Applications
 
 ## Applications to install manually after verifying gpg keys:
- - Dropbox
  - Google Drive
  - gpg
  - gpg-agent
