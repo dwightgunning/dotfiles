@@ -802,6 +802,13 @@ cp -r init/sublime/Preferences.sublime-settings ~/Library/Application\ Support/S
 cp -r init/sublime/SublimeLinter.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
 
 ###############################################################################
+# Sublime Merge
+###############################################################################
+
+# Link smerge into the path'd binary
+ln -s "/Applications/Sublime Merge.app/Contents/SharedSupport/bin/smerge" /usr/local/bin/smerge
+
+###############################################################################
 # Twitter.app                                                                 #
 ###############################################################################
 
