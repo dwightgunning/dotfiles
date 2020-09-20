@@ -72,7 +72,6 @@ brew install sqlite
 brew install postgresql
 
 # Install desktop apps from Cask: https://caskroom.github.io/
-brew tap caskroom/cask
 brew cask install anki
 brew cask install appcode
 brew cask install bowtie
