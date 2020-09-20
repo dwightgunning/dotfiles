@@ -2,8 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AlternateMouseScroll</key>
+	<true/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
+	<key>ApplePressAndHoldEnabled</key>
+	<false/>
 	<key>AppleScrollAnimationEnabled</key>
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
@@ -391,22 +395,24 @@
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
+	<key>NSWindow Frame ProfilesPanel</key>
+	<string>-1638 242 735 382 -1920 -180 1920 1057 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
-	<string>236 449 400 129 0 0 1680 1027 </string>
+	<string>113 863 400 129 0 0 1680 1027 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>-1310 146 700 622 -1920 -180 1920 1057 </string>
+	<string>490 303 700 622 0 0 1680 1027 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>1948 139 606 469 1680 0 3840 2137 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>512 304 958 470 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-851 100 665 709 -1920 -180 1920 1057 </string>
+	<string>-957 352 953 522 -1920 -180 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 83 1433 794 0 0 1440 877 </string>
+	<string>-1680 -90 1440 877 -1920 -180 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>603 0 833 877 0 0 1440 877 </string>
+	<string>256 47 1113 828 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>365 357 1001 488 0 0 1440 877 </string>
+	<string>-957 -180 953 1057 -1920 -180 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
 	<string>844 568 585 452 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
@@ -1399,9 +1405,17 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
+		<string>3.3.6</string>
+		<string>3.3.8</string>
+		<string>3.3.11</string>
+		<string>3.3.4</string>
+		<string>3.3.1</string>
+		<string>3.3.3</string>
+		<string>3.3.7</string>
+		<string>3.3.9</string>
 		<string>3.2.9</string>
 		<string>3.3.0</string>
-		<string>3.3.1</string>
+		<string>3.3.2</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
@@ -1412,7 +1426,7 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1680, 1050}}</string>
 		<key>topLeft</key>
-		<string>{611, 715}</string>
+		<string>{269, 595}</string>
 	</dict>
 	<key>NoSyncHaveRequestedFullDiskAccess</key>
 	<true/>
@@ -1423,7 +1437,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>B7C6B329-4DC9-4F65-A982-55B86CA49A21</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>4</integer>
+	<integer>34</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1864,6 +1878,14 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
+				<string>number</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
 				<string>currentTab.currentSession.hostname</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -1929,9 +1951,25 @@
 			</dict>
 			<dict>
 				<key>isTerminal</key>
+				<false/>
+				<key>name</key>
+				<string>title</string>
+				<key>nonterminalContext</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
 				<string>tmuxWindowTitle</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>title</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -2124,14 +2162,6 @@
 			</dict>
 		</array>
 	</dict>
-	<key>NoSyncSearchHistory</key>
-	<array>
-		<string>1.10.8.dev14-ng731c6b68</string>
-		<string>039938438748fffffffffffffffffff</string>
-		<string>02f1afaf-e117-42bb-80ea-a186b2b5f25e</string>
-		<string>botocore</string>
-		<string>boto3</string>
-	</array>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>503514791.02752602</real>
 	<key>OpenArrangementAtStartup</key>
@@ -2194,9 +2224,11 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-08-16T09:42:12Z</date>
+	<date>2020-06-26T17:46:16Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>SUUpdateGroupIdentifier</key>
+	<integer>391780755</integer>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>SeparateStatusBarsPerPane</key>
@@ -2204,7 +2236,7 @@
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<true/>
+	<false/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
@@ -2236,7 +2268,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.3.1</string>
+	<string>3.3.11</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>7</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
