@@ -70,6 +70,8 @@ brew install nvm
 brew install go --cross-compile-common
 brew install sqlite
 brew install postgresql
+brew tap heroku/brew 
+brew install heroku
 
 # Install desktop apps from Cask: https://caskroom.github.io/
 brew cask install anki
