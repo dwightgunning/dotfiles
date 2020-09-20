@@ -161,3 +161,6 @@ alias mysqlstop='mysql.server stop'
 
 alias apachestart='apachectl start'
 alias apachestart='apachectl stop'
+
+
+alias smerge="/Applications/Sublime Merge.app/Contents/SharedSupport/bin/smerge"
