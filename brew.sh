@@ -72,6 +72,7 @@ brew install sqlite
 brew install postgresql
 brew tap heroku/brew 
 brew install heroku
+brew install getsentry/tools/sentry-cli
 
 # Install desktop apps from Cask: https://caskroom.github.io/
 brew cask install anki
