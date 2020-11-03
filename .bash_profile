@@ -9,6 +9,7 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 done;
 unset file;
 
+
 if hash brew 2>/dev/null; then
 	# Source Node Version Manager
 	source "/usr/local/opt/nvm/nvm.sh";
@@ -36,14 +37,16 @@ for option in autocd globstar; do
 done;
 
 # Add tab completion for many Bash commands
-if hash brew &> /dev/null && [ -f "$(brew --prefix)/share/bash-completion/bash_completion" ]; then
-	source "$(brew --prefix)/share/bash-completion/bash_completion";
+if which brew &> /dev/null && [ -r "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]; then
+	# Ensure existing Homebrew v1 completions continue to work
+	export BASH_COMPLETION_COMPAT_DIR="$(brew --prefix)/etc/bash_completion.d";
+	source "$(brew --prefix)/etc/profile.d/bash_completion.sh";
 elif [ -f /etc/bash_completion ]; then
 	source /etc/bash_completion;
 fi;
 
 # Enable tab completion for `g` by marking it as an alias for `git`
-if type _git &> /dev/null && [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then
+if type _git &> /dev/null; then
 	complete -o default -o nospace -F _git g;
 fi;
 
